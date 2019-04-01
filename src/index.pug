@@ -1,0 +1,22 @@
+include ./mixins.pug
+
+<!DOCTYPE html>
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    title Portfolio | main page
+  body
+    .wrapper
+      .maincontent
+        .hero
+          .hero__image
+            img(src="src/images/para/bg_start.jpg").hero__image-pic
+          h1.hero__head portfolio
+          .hero__user
+            .hero__user-av
+              img(src="src/images/para/dev_pic.png").hero__user-pic
+            .hero__user-name Михаил Бахирев
+            .hero__user-desc Личный сайт веб разработчика
+        .second
