@@ -1,9 +1,5 @@
 var para = (function () {
-<<<<<<< HEAD
   var bg = document.querySelector('.hero__image');
-=======
-    var bg = document.querySelector('.hero__image');
->>>>>>> 9a6246070a2763edc5e0f1f5bda3d74ddf5ab218
     var user = document.querySelector('.hero__user');
     var head = document.querySelector('.hero__head');
 
@@ -43,9 +39,6 @@ window.onscroll = function () {
   var wScroll = window.pageYOffset;
   
   para.init(wScroll);
-<<<<<<< HEAD
   // console.log(wScroll);
-=======
->>>>>>> 9a6246070a2763edc5e0f1f5bda3d74ddf5ab218
 
 }

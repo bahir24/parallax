@@ -1,4 +1,29 @@
 .blur {
-    height: 100vh;
-    background: center /cover no-repeat url('/src/images/blur/target__bg.png')
-  }
+  height: 100vh;
+  position: relative;
+}
+
+.blur__bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: center /cover no-repeat url('/src/images/blur/target__bg.png');
+}
+
+.blur__form-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  width: 300px;
+  height: 400px;
+  // background: #000;
+
+}
+
+.blur__form {
+  background: center no-repeat url('/src/images/blur/target__bg.png');
+  filter: blur(20px);
+}
