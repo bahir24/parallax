@@ -10,17 +10,35 @@ html(lang="en")
   body
     .wrapper
       .maincontent
-        .hero
-          .hero__image
-            img(src="src/images/para/bg_start.jpg").hero__image-pic
-          h1.hero__head portfolio
-          .hero__user
-            .hero__user-av
-              img(src="src/images/para/dev_pic.png").hero__user-pic
-            .hero__user-name Михаил Бахирев
-            .hero__user-desc Личный сайт веб разработчика
+        section.mparallax
+          .parallax__layer(data-speed="0")
+            img(src="src/images/para/sky.png").parallax__pic
+          .parallax__layer(data-speed="0.09")
+            img(src="src/images/para/mountain.png").parallax__pic
+          .parallax__layer(data-speed="0.6")
+            img(src="src/images/para/train.png").parallax__pic
+          .parallax__layer(data-speed="1.2")
+            img(src="src/images/para/ground.png").parallax__pic
+          .parallax__layer(data-speed="3.2")
+            img(src="src/images/para/bottom_bg.png").parallax__pic
+          .parallax__layer(data-speed="3.2")
+            img(src="src/images/para/bottom_bg2.png").parallax__pic
+          .parallax__layer(data-speed="3.2")
+            img(src="src/images/para/btwn_sec_bg.png").parallax__pic
+          section.sec
         .blur
           .blur__bg
             //- img(src="/src/images/blur/target__bg.png").blur__pic
             .blur__form-wrapper
               .blur__form
+        //- .hero
+        //-   .hero__image
+        //-     img(src="src/images/para/bg_start.jpg").hero__image-pic
+        //-   h1.hero__head portfolio
+        //-   .hero__user
+        //-     .hero__user-av
+        //-       img(src="src/images/para/dev_pic.png").hero__user-pic
+        //-     .hero__user-name Михаил Бахирев
+        //-     .hero__user-desc Личный сайт веб разработчика                                
+        
+        
