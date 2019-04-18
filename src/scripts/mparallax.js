@@ -7,7 +7,7 @@ function move(wScroll) {
   Array.from(layers).forEach(layer => {
 
     const lspeed = layer.dataset.speed;
-    const strafe = lspeed * wScroll / 70;
+    const strafe = lspeed * wScroll / 60;
 
     layer.style.transform = `translateY(-${strafe}%)`
 
